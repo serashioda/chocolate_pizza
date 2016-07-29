@@ -1,1 +1,58 @@
-p {}
+
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#leftHeaderBox {
+  margin-top: 25px;
+}
+
+#delicious {
+  width: 300px;
+
+  font-size: 15px;
+  line-height: 1px;
+  display: inline-block;
+}
+
+#logo {
+  float: left;
+}
+
+.subheading {
+  font-size: 10px;
+}
+
+#rightHeaderBox {
+  float: right;
+
+}
+
+header{
+  border: solid;
+  height: 100px;
+}
+
+#chocolatePizza {
+  line-height: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#printButton {
+  float: right;
+}
+
+#pizzaImg {
+  max-width: 675px;
+}
+
+#directions {
+  text-indent: 40px;
+
+}
+
+#vanessa {
+  float: left;
+}
