@@ -3,18 +3,13 @@
   <head>
     <title>Delicious</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <header>
-      <div id="leftHeaderBox">
-        <div id="logo">
-          <img src="img/logo.png" id="bigLogo"/>
-        </div>
-        <div id="delicious">
-        <h1> Delicious </h1>
-        <p class="subheading"> THE BEST FOOD BLOG ON THE WEB. </p>
-      </div>
-      </div>
       <div id="rightHeaderBox">
         <img src="img/fb-icon.png"/>
         <img src="img/twit-icon.png"/>
@@ -25,10 +20,19 @@
         <img src="img/rss-icon.png"/>
         <img src="img/mail-icon.png"/>
       </div>
+      <div id="leftHeaderBox">
+        <div id="logo">
+          <img src="img/logo.png" id="bigLogo"/>
+        </div>
+        <div id="delicious">
+        <h1 id="deliciousText"> Delicious </h1>
+        <p id="subheading"> THE BEST FOOD BLOG ON THE WEB. </p>
+      </div>
+      </div>
     </header>
     <section id="chocolatePizza">
       <h1> Chocolate Pizza </h1>
-      <p class="subheading"> POSTED ON 15 DEC 2013 / DESSERTS
+      <p id="postedOn"> POSTED ON 15 DEC 2013 / DESSERTS
         <img id="printButton" src="img/print-icon.png"/>
     </section>
     <div>
@@ -63,8 +67,8 @@
     <article id="authorSection">
       <img id="vannessa" src="img/van-pic.png">
       <div id="bio">
-      <h1> Vanessa Stevenson </h1>
-      <p> Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
+      <h2> Vanessa Stevenson </h2>
+      <p id="info"> Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.
       </p>
       </div>
       <button> Submit </button>

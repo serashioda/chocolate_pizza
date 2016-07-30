@@ -8,19 +8,30 @@ body {
   width: 400px;
 }
 
+#deliciousText {
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-family: PT Sans Narrow;
+}
+
 #delicious {
   width: 300px;
   font-size: 15px;
   line-height: 1px;
   display: inline-block;
+  margin-left: 10px;
 }
 
 #logo {
   float: left;
 }
 
-.subheading {
+
+#subheading {
   font-size: 10px;
+  font-family: 'Varela Round', sans-serif;
 }
 
 #rightHeaderBox {
@@ -29,7 +40,7 @@ body {
 }
 
 header{
-  border-bottom: solid;
+  border-bottom-style: double;
   height: 100px;
 }
 
@@ -37,6 +48,11 @@ header{
   line-height: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+#postedOn {
+  font-size: 10px;
+  font-family: 'Poiret One', cursive;
 }
 
 #printButton {
@@ -51,19 +67,21 @@ header{
 #directions {
   text-indent: 40px;
   margin-top: 30px;
+  font-family: Lora;
+  color: grey;
+  font-size: 13px;
 }
 
 #checkList {
-
-
+background-image:url("img/list-bg.png");
+height: 150px;
 }
 
 ul {
   column-count: 2;
   column-gap: 1em;
-  background-image:url("../img/list-bg.png");
   margin-top: 40px;
-  margin-top: 40px;
+  margin-bottom: 75px;
 }
 
 .noBulletin {
@@ -83,7 +101,11 @@ ul {
 
 #authorSection {
   margin-bottom: 30px;
-  border-top: solid;
+  border-top-style: double;
+}
+
+#info {
+  font-family: 'Cardo', serif;
 }
 
 button {
@@ -91,6 +113,6 @@ button {
 }
 
 footer {
-  border-top: solid;
+  border-top-style: double;
   text-align: center;
 }
