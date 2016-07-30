@@ -1,0 +1,96 @@
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#leftHeaderBox {
+  margin-top: 25px;
+  width: 400px;
+}
+
+#delicious {
+  width: 300px;
+  font-size: 15px;
+  line-height: 1px;
+  display: inline-block;
+}
+
+#logo {
+  float: left;
+}
+
+.subheading {
+  font-size: 10px;
+}
+
+#rightHeaderBox {
+  float: right;
+  height: 50px;
+}
+
+header{
+  border-bottom: solid;
+  height: 100px;
+}
+
+#chocolatePizza {
+  line-height: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#printButton {
+  float: right;
+}
+
+
+#pizzaImg {
+  width: 100%;
+}
+
+#directions {
+  text-indent: 40px;
+  margin-top: 30px;
+}
+
+#checkList {
+
+
+}
+
+ul {
+  column-count: 2;
+  column-gap: 1em;
+  background-image:url("../img/list-bg.png");
+  margin-top: 40px;
+  margin-top: 40px;
+}
+
+.noBulletin {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+#vanessa {
+  float: left;
+}
+
+#bio {
+  width: 400px;
+  display: inline-block;
+  line-height: 20px;
+}
+
+#authorSection {
+  margin-bottom: 30px;
+  border-top: solid;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+footer {
+  border-top: solid;
+  text-align: center;
+}
