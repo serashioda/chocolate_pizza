@@ -1,36 +1,47 @@
 
 body {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #leftHeaderBox {
   margin-top: 25px;
+  width: 400px;
+}
+
+#deliciousText {
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-family: PT Sans Narrow;
 }
 
 #delicious {
   width: 300px;
-
   font-size: 15px;
   line-height: 1px;
   display: inline-block;
+  margin-left: 10px;
 }
+
 
 #logo {
   float: left;
 }
 
-.subheading {
+#subheading {
   font-size: 10px;
+  font-family: 'Varela Round', sans-serif;
 }
 
 #rightHeaderBox {
   float: right;
-
+  height: 50px;
 }
 
 header{
-  border: solid;
+  border-bottom-style: double;
   height: 100px;
 }
 
@@ -40,19 +51,70 @@ header{
   padding-bottom: 15px;
 }
 
+#postedOn {
+  font-size: 10px;
+  font-family: 'Poiret One', cursive;
+}
+
 #printButton {
   float: right;
 }
 
+
 #pizzaImg {
-  max-width: 675px;
+  width: 100%;
 }
 
 #directions {
   text-indent: 40px;
+  margin-top: 30px;
+ font-family: Lora;
+ color: grey;
+ font-size: 13px;
+}
 
+#checkList {
+background-image:url("img/list-bg.png");
+height: 150px;
+}
+
+ul {
+  column-count: 2;
+  column-gap: 1em;
+  margin-top: 40px;
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
+
+.noBulletin {
+  list-style-type: none;
+  list-style-position: inside;
 }
 
 #vanessa {
   float: left;
+}
+
+#bio {
+  width: 400px;
+  display: inline-block;
+  line-height: 20px;
+}
+
+#authorSection {
+  margin-bottom: 30px;
+  border-top-style: double;
+}
+
+#info {
+  font-family: 'Cardo', serif;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+footer {
+  border-top-style: double;
+  text-align: center;
 }
